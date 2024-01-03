@@ -9,11 +9,12 @@ public class FakeBookRepository implements BookRepository {
 
     @Override
     public void save(Book book) {
+
         bookStore.put(book.getBookId(), book);
     }
 
     @Override
     public Collection<Book> findAll() {
-      return bookStore.values();
+        return bookStore.values();
     }
 }
