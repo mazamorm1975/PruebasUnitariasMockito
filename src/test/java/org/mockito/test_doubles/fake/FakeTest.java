@@ -1,8 +1,6 @@
 package org.mockito.test_doubles.fake;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
